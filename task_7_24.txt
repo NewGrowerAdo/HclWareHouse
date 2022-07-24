@@ -37,7 +37,7 @@ git clone
 git branch
 git checkout
 
-2.从learning_plan.emmx中选择未来一个月要学的课程，列出未来一个月的学习目标，并用git命令上传到learning_plan分支，仓库
+2.从learning_plan.emmx中选择未来一个月要学的课程，列出未来一个月的学习目标，并用git命令上传到learning_plan分支
 提示：git status
 git add
 git commit 
