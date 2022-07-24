@@ -1,0 +1,46 @@
+1.下载安装git：https://blog.csdn.net/weixin_44486583/article/details/122704375
+   推荐采用傻瓜式安装，一路next
+
+   安装之后配置用户名和邮箱：
+   右键点击桌面，点击Git Bash Here，在弹出来的界面输入以下命令配置自己的名字和邮箱
+   git config --global user.name huangchaoling
+   git config --global user.email xxxxxx@xxx.com
+
+2.注册github账号：https://github.com/    进不去就多刷新几次
+   注册好了之后记得登录上自己的github
+
+3.拉仓库：以下两种方法二选一
+   方法一：用https拉
+	右击桌面--git bash here--输入以下命令
+	git clone https://github.com/NewGrowerAdo/HclWareHouse.git
+	然后会让你输入自己的github账户和密码
+	注意：密码输入的时候是不显示出来的，所以看上去没输入实际上已经输入
+
+   方法二：用SSH密钥拉
+	配置ssh密钥：https://blog.csdn.net/x550392236/article/details/123069751
+	右击桌面--git bash here--输入以下命令
+	git clone git@github.com:NewGrowerAdo/HclWareHouse.git
+
+   命令执行完后，桌面会有一个HclWareHouse文件夹
+
+4.进入HclWareHouse文件夹，继续git bash here
+   使用git branch -a 查看分支(现在只有两个分支 learning_plan 和 main)
+   使用命令 git checkout learning_plan切换到分支learning_plan，
+   即可看到learning_plan.emmx思维导图
+
+
+
+小作业：
+1.总结一下今天使用到的git命令，理解他们的具体作用
+git config 
+git clone
+git branch
+git checkout
+
+2.从learning_plan.emmx中选择未来一个月要学的课程，列出未来一个月的学习目标，并用git命令上传到learning_plan分支，仓库
+提示：git status
+git add
+git commit 
+git push
+
+小酸酸，我每周都会检查你的进度哦！！！！！！！！！！
