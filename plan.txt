@@ -1,0 +1,2 @@
+八月份学习计划：熟悉了解git、掌握git常用命令。
+                            安装Python，教程学到第一个Python程序或Python基础。
